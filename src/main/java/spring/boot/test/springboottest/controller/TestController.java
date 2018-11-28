@@ -28,4 +28,10 @@ public TestRespVO test(){
 
         return new TestRespVO("user test");
     }
+
+    @RequestMapping("/user/list")
+    public TestRespVO userList(){
+
+        return new TestRespVO("user userList");
+    }
 }
