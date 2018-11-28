@@ -34,4 +34,10 @@ public TestRespVO test(){
 
         return new TestRespVO("company test");
     }
+
+    @RequestMapping("/user/list")
+    public TestRespVO userList(){
+
+        return new TestRespVO("user userList");
+    }
 }
