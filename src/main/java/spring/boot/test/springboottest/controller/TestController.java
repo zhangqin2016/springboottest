@@ -28,4 +28,10 @@ public TestRespVO test(){
 
         return new TestRespVO("user test");
     }
+
+    @RequestMapping("/company")
+    public TestRespVO company(){
+
+        return new TestRespVO("company test");
+    }
 }
