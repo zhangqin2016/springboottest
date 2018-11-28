@@ -23,4 +23,9 @@ public TestRespVO test(){
 
         return new TestRespVO("index hello world！");
     }
+    @RequestMapping("/user")
+    public TestRespVO user(){
+
+        return new TestRespVO("user test");
+    }
 }
