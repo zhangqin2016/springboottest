@@ -40,4 +40,17 @@ public TestRespVO test(){
 
         return new TestRespVO("user userList");
     }
+
+    @RequestMapping("/user/list/del")
+    public TestRespVO del(){
+
+        return new TestRespVO("user userList del");
+
+    }
+
+    @RequestMapping("/user/list/update")
+    public TestRespVO update(){
+//ceshi
+        return new TestRespVO("user update");
+    }
 }
