@@ -46,4 +46,10 @@ public TestRespVO test(){
 
         return new TestRespVO("user userList del");
     }
+
+    @RequestMapping("/user/list/update")
+    public TestRespVO update(){
+
+        return new TestRespVO("user update");
+    }
 }
